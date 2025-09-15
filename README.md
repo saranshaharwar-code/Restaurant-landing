@@ -4,7 +4,7 @@
 A modern, responsive **restaurant landing page** built with **HTML, CSS, and JavaScript**.  
 It showcases menu items, gallery, reservations, and contact details.  
 
-👉 **Live Demo:** [Click Here](https://saranshahwar-code.github.io/Restaurant-landing/)
+👉 **Live Demo:** [Click Here](https://saranshaharwar-code.github.io/Restaurant-landing/)
 
 ---
 
@@ -45,3 +45,4 @@ This project is licensed under the [MIT License](LICENSE).
 ## ✨ Author
 **Saransh Aharwar** — Frontend Developer  
 - GitHub: [@saranshahwar-code](https://github.com/saranshahwar-code)  
+
