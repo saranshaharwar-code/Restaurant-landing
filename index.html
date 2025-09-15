@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Spice & Soul — Restaurant</title>
+  <meta name="description" content="Spice & Soul — Modern restaurant. Menu, reservations, gallery and contact." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">Spice<span>&</span>Soul</a>
+
+      <button id="burger" class="burger" aria-label="Open menu">☰</button>
+
+      <nav id="nav" class="nav">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#reservation">Reservation</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Fresh Flavors. Cozy Vibes.</h1>
+          <p>Classic recipes with a modern twist. Book a table or order online.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#reservation">Reserve a Table</a>
+            <a class="btn" href="#menu">View Menu</a>
+          </div>
+          <div class="hours">Open today • 11:00 — 23:00</div>
+        </div>
+        <div class="hero-image" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=7d2b7e7f8a6d8b8f0a9b" alt="Delicious plated food">
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about">
+      <div class="container">
+        <h2>About Spice & Soul</h2>
+        <p class="lead">We serve seasonal dishes made from local produce. Comfortable seating, friendly staff, and flavors that bring people together.</p>
+        <div class="two-col">
+          <div>
+            <h3>Locally sourced</h3>
+            <p>We partner with local farms to bring you fresh, seasonal ingredients.</p>
+          </div>
+          <div>
+            <h3>Chef-driven</h3>
+            <p>Our chef blends tradition and innovation to create memorable meals.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section id="menu" class="section menu">
+      <div class="container">
+        <h2>Our Menu</h2>
+        <p class="lead">A few crowd favorites — click to view full menu or order.</p>
+
+        <div class="menu-grid">
+          <article class="menu-card">
+            <img src="grilled steak.jpg" alt="Grilled steak">
+            <div class="menu-body">
+              <h3>Grilled Steak</h3>
+              <p>Char-grilled steak, herb butter, seasonal veg.</p>
+              <div class="price">₹499</div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <img src="Truffle-mushroom-pasta-2.webp" alt="Mushroom Pasta">
+            <div class="menu-body">
+              <h3>Creamy Truffle Pasta</h3>
+              <p>House-made pasta with truffle cream sauce.</p>
+              <div class="price">₹349</div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <img src="Chocolate-Lava-Cake-Recipe.jpg" alt="Dessert">
+            <div class="menu-body">
+              <h3>Chocolate Lava Cake</h3>
+              <p>Warm chocolate cake with molten center.</p>
+              <div class="price">₹199</div>
+            </div>
+          </article>
+        </div>
+
+        <div class="menu-cta">
+          <a class="btn primary" href="#reservation">Reserve for Dinner</a>
+          <a class="btn" href="#contact">Order Online</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section gallery">
+      <div class="container">
+        <h2>Gallery</h2>
+        <div class="grid gallery-grid">
+          <img src="res6taurant interior.jpg" alt="restaurant interior">
+          <img src="chef platting.jpg" alt="chef plating">
+          <img src="table setting.jpg" alt="table setting">
+        </div>
+      </div>
+    </section>
+
+    <!-- RESERVATION -->
+    <section id="reservation" class="section reservation">
+      <div class="container narrow">
+        <h2>Reserve a Table</h2>
+        <p class="lead">Fill the form and we’ll confirm your booking by email.</p>
+        <form id="reservationForm" class="form-grid">
+          <input type="text" name="name" placeholder="Your full name" required />
+          <input type="tel" name="phone" placeholder="Phone number" required />
+          <input type="email" name="email" placeholder="Email address" required />
+          <input type="date" name="date" required />
+          <input type="time" name="time" required />
+          <select name="people" required>
+            <option value="">Number of people</option>
+            <option>1</option><option>2</option><option>3</option><option>4</option><option>5+</option>
+          </select>
+          <textarea name="notes" placeholder="Any special requests" rows="3"></textarea>
+          <button class="btn primary" type="submit">Request Reservation</button>
+        </form>
+        <p class="small">Or call us: <strong>+91 98765 43210</strong></p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="container narrow">
+        <h2>Contact</h2>
+        <p>Find us at: 123 Flavor Street, Your City</p>
+        <p>Email: hello@spiceandsoul.example</p>
+        <div class="map">
+          <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609841513!2d72.74109825169328!3d19.082197839659404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63f9890b2d7%3A0xdea2b6c72b5a0f61!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1694786394815!5m2!1sen!2sin"
+  width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+        </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Spice & Soul</div>
+      <div class="socials">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="Twitter">TW</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
